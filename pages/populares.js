@@ -1,15 +1,13 @@
-import React, { useState, useEffect, useContext } from 'react'
+import React from 'react'
 
 
-
-import Head from 'next/head'
 import Layout from '../components/layout/Layout'
 import Producto from '../components/layout/Producto'
 import useProductos from '../hooks/useProductos'
 
-export default function Home() {
+export default function Populares() {
 
-  const {productos} = useProductos('creado')
+  const {productos} = useProductos('votos')
 
 
   return (
