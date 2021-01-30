@@ -1,5 +1,9 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Requires Firebase App Settings
+
+Create a new App from Firebase Console, and add setting on firebase/config file.
+
 ## Getting Started
 
 First, run the development server:
